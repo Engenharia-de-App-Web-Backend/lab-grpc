@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package inventory;
+
+// Definição do serviço e seus métodos
+service InventoryService {
+  // Comunicação Unary (1 request -> 1 response)
+  rpc CheckStock (StockRequest) returns (StockResponse);
+  
+  // Comunicação Server Streaming (1 request -> N responses)
+  rpc StreamProductUpdates (StreamRequest) returns (stream ProductUpdate);
+}
+
+// Estruturas de dados (Mensagens)
+message StockRequest {
+  string product_id = 1;
+}
+
+message StockResponse {
+  bool available = 1;
+  int32 quantity = 2;
+}
+
+message StreamRequest {
+  string category = 1;
+}
+
+message ProductUpdate {
+  string product_id = 1;
+  string status = 2;
+}

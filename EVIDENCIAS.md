@@ -9,9 +9,6 @@
 | Campo | Informação |
 | :--- | :--- |
 | **Nome do(a) Aluno(a)** | `[Seu Nome Completo]` |
-| **Matrícula / RA** | `[Sua Matrícula]` |
-| **Data de Execução** | `[DD/MM/AAAA]` |
-| **Link da Pasta no GitHub** | `[https://github.com/usuario/lab-nome_do_aluno/tree/main/lab04]` |
 
 ---
 

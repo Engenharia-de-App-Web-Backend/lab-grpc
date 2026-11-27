@@ -1,4 +1,4 @@
-# Registro de Evidências — Laboratório gRPC, Docker e Docker Compose
+# Registro de Evidências — Laboratório gRPC
 
 > **Instruções de preenchimento:** Substitua os blocos marcados com `[...]` pelas saídas reais do seu terminal, respostas JSON do Postman/curl ou prints de tela. Caso utilize imagens, salve-as em uma pasta `evidencias/` dentro do diretório da atividade e referencie-as com `![Descrição](./evidencias/nome-do-arquivo.png)`.
 
